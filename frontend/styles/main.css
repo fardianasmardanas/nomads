@@ -1,4 +1,8 @@
 body {
   background: #E4E6EB;
 }
+
+.navbar-brand img {
+  max-height: 40px;
+}
 /*# sourceMappingURL=main.css.map */
