@@ -1,9 +1,53 @@
+// globak
 body {
-  background: #E4E6EB;
+  background-color: #E4E6EB;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
 }
 
+// navbar
+
+// logo nomads
 .navbar-brand {
   img {
     max-height: 40px;
   }
 }
+
+// mobile button 
+.btn-login {
+  background-color: #071C4D;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #334C85;
+    color: #ffffff;
+  }
+}
+
+// desktop button
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+
+  height: 70px;
+  border-radius: 0;
+}
+
+// menu navbar 
+.navbar-right {
+  .navbar-nav {
+    .nav-link {
+      color: #071C4D;
+
+      &.active {
+        font-weight: bold;
+        color: #071C4D !important;
+      }
+    }
+  }
+}
+
+
+// end navbar
