@@ -26,11 +26,11 @@ body {
   border-radius: 0;
 }
 
-.navbar-right .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: #071C4D;
 }
 
-.navbar-right .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .nav-link.active {
   font-weight: bold;
   color: #071C4D !important;
 }
