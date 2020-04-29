@@ -6,7 +6,6 @@ body {
 }
 
 // navbar
-
 // logo nomads
 .navbar-brand {
   img {
@@ -50,3 +49,39 @@ body {
 }
 
 // end navbar
+
+// header
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url('../images/Group\ 6.jpg');
+  background-size: cover;
+
+  h1 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  p {
+    color: #fff;
+    font-size: 22px;
+  }
+
+  .btn-get-started {
+    background-color: #DF823A;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+
+    &:hover {
+      background-color: #FF9E53;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}
+
+// end header

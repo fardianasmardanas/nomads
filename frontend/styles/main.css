@@ -34,4 +34,37 @@ body {
   font-weight: bold;
   color: #071C4D !important;
 }
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/Group 6.jpg");
+  background-size: cover;
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  color: #fff;
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #DF823A;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header .btn-get-started:hover {
+  background-color: #FF9E53;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
 /*# sourceMappingURL=main.css.map */
