@@ -48,8 +48,6 @@ body {
   }
 }
 
-// end navbar
-
 // header
 header {
   padding: 180px 0 165px;
@@ -84,8 +82,6 @@ header {
   }
 }
 
-// end header
-
 // statistik header
 .section-stats {
   margin-top: -50px;
@@ -107,4 +103,26 @@ p {
   font-weight: lighter;
 }
 
-// eand statistik header
+// wisata popular
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -52px;
+  margin-bottom: -230px;
+
+  .section-popular-heading {
+    margin-top: 150px;
+
+    h2 {
+      color: #fff;
+      font-family: 'Playfair Display', serif;
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    p {
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+}
