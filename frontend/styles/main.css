@@ -110,4 +110,33 @@ p {
   color: #fff;
   font-size: 18px;
 }
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #c9c6c6;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-detail {
+  background-color: #DF823A;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-detail:hover {
+  background-color: #FF9E53;
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */

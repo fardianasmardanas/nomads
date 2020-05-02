@@ -126,3 +126,39 @@ p {
     }
   }
 }
+
+// card popular content
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      min-height: 380px;
+      background-color: rgb(201, 198, 198);
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+
+    .travel-country {
+      font-size: 18px;
+      color: #fff;
+    }
+
+    .travel-location {
+      font-size: 26px;
+      color: #fff;
+    }
+
+    .travel-button {
+      .btn-travel-detail {
+        background-color: #DF823A;
+        color: #fff;
+
+        &:hover {
+          background-color: #FF9E53;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
